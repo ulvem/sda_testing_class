@@ -39,7 +39,7 @@ class StringOperation:
         else:
             return None
 
-    def get_postional_character(self, position:int = 0) -> str:
+    def get_positional_character(self, position:int = 0) -> str:
         if not isinstance(position, int):
             raise TypeError("position must be string")
 
